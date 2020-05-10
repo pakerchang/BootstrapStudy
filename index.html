@@ -26,6 +26,14 @@
 
 <body>
     <div class="row">
+        <!-- col tag(Column) 於html頁面中被切割成12等份，
+        Mobile – xs（ < 768px ）
+        Tablet – sm（ 768~991px ）
+        Desktop – md（ 992~1200px ）
+        Large Desktop - lg（ >= 1200px ）
+        more detail : https://cythilya.github.io/2015/04/07/bootstrap-grid-system/
+                        https://getbootstrap.com/docs/4.0/layout/grid/
+        -->
         <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: green; border: 1px solid;">
             col-lg-3 col-md-4 col-sm-6
         </div>
@@ -39,7 +47,7 @@
             col-lg-3 col-md-4 col-sm-6
         </div>
     </div>
-    
+
     <section id="title">
 
         <!-- Nav Bar -->
@@ -64,21 +72,19 @@
             </div>
         </nav>
 
-
-
         <!-- Title -->
 
-        <div>
-            <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Meet new and interesting dog nearby.</h1>
+                <button type="button">Download</button>
+                <button type="button">Download</button>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/iphone6.png"  alt="iphone-mockup">
+            </div>
         </div>
-        <div>
-            <img src="images/iphone6.png" alt="iphone-mockup">
-        </div>
-
     </section>
-
 
     <!-- Features -->
 
@@ -95,7 +101,6 @@
 
     </section>
 
-
     <!-- Testimonials -->
 
     <section id="testimonials">
@@ -110,7 +115,6 @@
 
     </section>
 
-
     <!-- Press -->
 
     <section id="press">
@@ -120,7 +124,6 @@
         <img src="images/mashable.png" alt="mashable-logo">
 
     </section>
-
 
     <!-- Pricing -->
 
