@@ -7,11 +7,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;900&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
     <!-- Optional JavaScript -->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/31e4ed3f1f.js" crossorigin="anonymous"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -22,18 +32,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div class="row">
-        <!-- col tag(Column) 於html頁面中被切割成12等份，
+
+    <!-- <div class="row">
+        col tag(Column) 於html頁面中被切割成12等份，
         Mobile – xs（ < 768px ）
         Tablet – sm（ 768~991px ）
         Desktop – md（ 992~1200px ）
         Large Desktop - lg（ >= 1200px ）
         more detail : https://cythilya.github.io/2015/04/07/bootstrap-grid-system/
                         https://getbootstrap.com/docs/4.0/layout/grid/
-        -->
+                        
         <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: green; border: 1px solid;">
             col-lg-3 col-md-4 col-sm-6
         </div>
@@ -46,44 +58,53 @@
         <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: green; border: 1px solid;">
             col-lg-3 col-md-4 col-sm-6
         </div>
-    </div>
+    </div> -->
 
     <section id="title">
+        <div class="container-fluid">
 
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Tindog</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-                aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <!-- Nav Bar -->
 
-        <!-- Title -->
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">Tindog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-        <div class="row">
-            <div class="col-lg-6">
-                <h1>Meet new and interesting dog nearby.</h1>
-                <button type="button">Download</button>
-                <button type="button">Download</button>
-            </div>
-            <div class="col-lg-6">
-                <img src="images/iphone6.png"  alt="iphone-mockup">
+            <!-- Title -->
+
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <h1>Meet new and interesting dog nearby.</h1>
+
+                    <!-- Icon from FontAwesome -->
+                    <button type="button" class="btn btn-dark btn-lg download-button">
+                        <i class="fab fa-apple"></i> Download</button>
+                    <button type="button" class="btn btn-outline-light btn-lg download-button">
+                        <i class="fab fa-google-play"></i> Download</button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="titleImage" src="images/iphone6.png" alt="iphone-mockup">
+                </div>
             </div>
         </div>
+
     </section>
 
     <!-- Features -->
