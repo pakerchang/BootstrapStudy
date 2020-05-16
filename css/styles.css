@@ -5,11 +5,16 @@
 h1{
     font-family: "Montserrat-Black";
     font-size: 4.6rem;
-    line-height: 1.3;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
 }
 h3{
     font-family: "Montserrat-bold";
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 body{
     font-family: "Montserrat-Thin";
@@ -21,8 +26,9 @@ p{
     margin: 5% 3% 5% 0;
 }
 .container-fluid{
-    padding: 0% 15%;
+    padding: 3% 15%;
 }
+
 /* Navigation Bar */
 .navbar{
     padding: 0 0 4.5rem;
@@ -40,24 +46,53 @@ p{
     font-family: "Montserrat-Light";
     font-size: 1.2rem;
 }
+
  /* Title image */
 .titleImage{
     width: 60%;
     transform: rotate(25deg);
 }
 
-/* table icon */
+/* features section */
+#features{
+    padding: 7% 15%;
+}
 .fas{
     color: #ef8172;
+    margin-bottom: 1rem;
 }
 .fas:hover{
     color: #ff4c68;
     
 }
-.textTable{
-    display: flex;
-}
-.textBox{
-    margin: auto;
+.featuresBox{
     text-align: center;
+    padding: 5%;
+}
+
+/* testimonials section */
+#testimonials{
+    text-align: center;
+    background-color:  #ef8172;
+    color: #fff;    
+}
+/* padding在此上下互換差別位於：原先padding在於壓縮carousel-item壓縮在testimonial內，對調後改成padding carousel-item填充整個testimonial區塊 */
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+#press{
+    background-color:  #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.pressLogo{
+    width: 15%;
+    margin: 20px 20px 50px  ;
 }
