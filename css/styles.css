@@ -125,3 +125,31 @@ p{
     font-family: "Montserrat-900";
     line-height: 1;
 }
+
+/* callToAction section */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-h3{
+    font-family: "Montserrat-900";
+    color: #fff;
+    padding: 0 0 0 10px;
+}
+.cta-btn{
+    margin: 5% 3% 5% 0;
+    padding: 5px 20px;
+}
+
+/* footer section */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.footerIcon{
+    margin: 0 10px;
+    padding: 20px 0;
+}
