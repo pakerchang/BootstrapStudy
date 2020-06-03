@@ -55,6 +55,15 @@ p{
     position: absolute;
     right: 30%;
 }
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .titleImage{
+        position: static;
+        transform: rotate(0);
+    }
+}
 
 /* features section */
 #features{
