@@ -133,15 +133,13 @@ p{
     padding: 7% 15%;
     text-align: center;
 }
-.cta-h3{
+#cta h3{
     font-family: "Montserrat-900";
     color: #fff;
-    padding: 0 0 0 10px;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
-.cta-btn{
-    margin: 5% 3% 5% 0;
-    padding: 5px 20px;
-}
+
 
 /* footer section */
 #footer{
@@ -149,8 +147,7 @@ p{
     text-align: center;
     padding: 7% 15%;
 }
-.footerIcon{
+.social-icon{
     color: black;
-    margin: 0 10px;
-    padding: 20px 0;
+    margin: 20px 10px;
 }
