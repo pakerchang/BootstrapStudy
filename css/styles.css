@@ -1,24 +1,16 @@
-h1{
-    font-family: "Montserrat-Black";
-    font-size: 4.6rem;
-    line-height: 1.5;
-}
-h2{
-    font-family: "Montserrat-bold";
-    font-size: 3rem;
-    line-height: 1.5;
-}
-h3{
-    font-family: "Montserrat-bold";
-    font-size: 2rem;
-}
 body{
     font-family: "Montserrat-Thin"; 
+    text-align: center;
+}
+h2,h3{
+    font-family: "Montserrat-Bold";
 }
 p{
     color: #8f8f8f;
 }
-
+.container-fluid{
+    padding: 7% 15% ;
+}
 /* Navigation Bar */
 .navbar{
     padding: 0 0 4.5rem;
@@ -39,10 +31,16 @@ p{
 
 /* title section */
 #title {
+    text-align: left;
     background-color: #ff4c68;
     color: #fff;
 }
-.container-fluid{
+#title h1{
+    font-family: "Montserrat-Black";
+    font-size: 4.6rem;
+    line-height: 1.5;
+}
+#title .container-fluid{
     padding: 3% 15% 7%;
 }
 .download-button{
@@ -67,10 +65,12 @@ p{
 
 /* features section */
 #features{
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
+}
+#features h3{
+    font-size: 1.5rem;
 }
 .fas{
     color: #ef8172;
@@ -81,20 +81,20 @@ p{
     
 }
 .featuresBox{
-    text-align: center;
     padding: 5%;
 }
 
 /* testimonials section */
 #testimonials{
-    text-align: center;
     background-color:  #ef8172;
     color: #fff;    
 }
-/* padding在此上下互換差別位於：原先padding在於壓縮carousel-item壓縮在testimonial內，對調後改成padding carousel-item填充整個testimonial區塊 */
-.carousel-item{
-    padding: 7% 15%;
+#testimonials h2{
+    font-size: 3rem;
+    line-height: 1.5;
 }
+/* padding在此上下互換差別位於：原先padding在於壓縮carousel-item壓縮在testimonial內，對調後改成padding carousel-item填充整個testimonial區塊 */
+
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
@@ -104,7 +104,6 @@ p{
 /* press section */
 #press{
     background-color:  #ef8172;
-    text-align: center;
     padding-bottom: 5%;
     
 }
@@ -115,8 +114,14 @@ p{
 
 /* pricing section */
 #pricing{
-    text-align: center;
     padding: 100px
+}
+#pricing h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#pricing h3{
+    font-size: 1.5rem;
 }
 .card{
     padding: 3% 2% ;
@@ -130,8 +135,6 @@ p{
 
 #cta{
     background-color: #ff4c68;
-    padding: 7% 15%;
-    text-align: center;
 }
 #cta h3{
     font-family: "Montserrat-900";
@@ -144,8 +147,6 @@ p{
 /* footer section */
 #footer{
     background-color: #fff;
-    text-align: center;
-    padding: 7% 15%;
 }
 .social-icon{
     color: black;
