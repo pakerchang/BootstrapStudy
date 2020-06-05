@@ -11,6 +11,19 @@ p{
 .container-fluid{
     padding: 7% 15% ;
 }
+
+/* Sections */
+.color-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.color-section#testimonials,.color-section#press{
+    background-color:  #ef8172;
+}
+.white-section{
+    background-color: #fff;
+}
+
 /* Navigation Bar */
 .navbar{
     padding: 0 0 4.5rem;
@@ -30,11 +43,6 @@ p{
 }
 
 /* title section */
-#title {
-    text-align: left;
-    background-color: #ff4c68;
-    color: #fff;
-}
 #title h1{
     font-family: "Montserrat-Black";
     font-size: 4.6rem;
@@ -42,6 +50,7 @@ p{
 }
 #title .container-fluid{
     padding: 3% 15% 7%;
+    text-align: left;
 }
 .download-button{
     margin: 5% 3% 5% 0;
@@ -65,7 +74,6 @@ p{
 
 /* features section */
 #features{
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
@@ -78,7 +86,6 @@ p{
 }
 .fas:hover{
     color: #ff4c68;
-    
 }
 .featuresBox{
     padding: 5%;
@@ -86,7 +93,6 @@ p{
 
 /* testimonials section */
 #testimonials{
-    background-color:  #ef8172;
     color: #fff;    
 }
 #testimonials h2{
@@ -103,7 +109,6 @@ p{
 
 /* press section */
 #press{
-    background-color:  #ef8172;
     padding-bottom: 5%;
     
 }
@@ -133,9 +138,6 @@ p{
 
 /* callToAction section */
 
-#cta{
-    background-color: #ff4c68;
-}
 #cta h3{
     font-family: "Montserrat-900";
     color: #fff;
@@ -145,9 +147,7 @@ p{
 
 
 /* footer section */
-#footer{
-    background-color: #fff;
-}
+
 .social-icon{
     color: black;
     margin: 20px 10px;
